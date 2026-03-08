@@ -28,7 +28,7 @@ Optional addons that improve the overall experience:
 Follow these steps to set up CardinalUI:
 
 1. Install all **Required Addons**.
-2. Download the latest release of **CardinalUI**.
+2. Download the latest release of **ElvatathUI**. #ElvatathUI will be replaced in the future with the new name.
 3. Extract the files into your `World of Warcraft/_retail_/WTF` folder (or your preset import folder).
 4. Import each preset into the correct addon.
 
