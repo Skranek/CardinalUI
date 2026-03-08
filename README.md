@@ -1,53 +1,50 @@
-CardinalUI
+# CardinalUI
 
-CardinalUI is a minimalist interface for World of Warcraft that centers the most important gameplay elements at the bottom of the screen for maximum focus and awareness.
+A curated set of addons and presets to enhance your **World of Warcraft** experience.
 
-The layout places player, target, action bars, and combat information in a compact center cluster so you can keep your eyes on the game world instead of scanning the screen.
+---
 
-Preview
-Combat Layout
+## Required Addons
 
-Exploration Layout
+These addons are essential for CardinalUI to function correctly:
 
-Features
+- **[ElvUI](https://tukui.org/elvui)**
+- **[Universal Frame Anchor (UFA)](https://www.curseforge.com/wow/addons/frame-anchor-ui-builder)**
+- **[WeakTextures](https://www.curseforge.com/wow/addons/weaktextures)**
 
-Centered player and target unit frames
+---
 
-Action bars placed directly under combat frames
+## Recommended Addons
 
-Dynamic minimap swapping behavior
+Optional addons that improve the overall experience:
 
-Shows when out of combat
+- **[ToxiUI](https://www.curseforge.com/wow/addons/toxiui)**
+- **[DynamicCam](https://www.curseforge.com/wow/addons/dynamiccam)**
 
-Shows when no target is selected
+---
 
-Moves to the opposite side for easy quest navigation
+## Installation
 
-Minimal UI clutter
+Follow these steps to set up CardinalUI:
 
-Optimized for visibility and awareness during combat
+1. Install all **Required Addons**.
+2. Download the latest release of **CardinalUI**.
+3. Extract the files into your `World of Warcraft/_retail_/WTF` folder (or your preset import folder).
+4. Import each preset into the correct addon.
 
-Required Addons
+---
 
-These addons are required for CardinalUI to function.
+## Presets
 
-ElvUI
-https://tukui.org/elvui
+Import the following preset files into their respective addons:
 
-Universal Frame Anchor (UFA)
-https://www.curseforge.com/wow/addons/frame-anchor-ui-builder
+| File   | Addon                       |
+|--------|-----------------------------|
+| File1  | ElvUI                       |
+| File2  | Universal Frame Anchor (UFA)|
+| File3  | WeakTextures                |
+| File4  | DynamicCam                  |
 
-WeakTextures
-https://www.curseforge.com/wow/addons/weaktextures
+---
 
-Recommended Addons
-
-These are optional but improve the overall experience.
-
-ToxiUI
-https://www.curseforge.com/wow/addons/toxiui
-
-DynamicCam
-https://www.curseforge.com/wow/addons/dynamiccam
-
-ToxiUI
+> Enjoy your enhanced WoW UI with CardinalUI!
