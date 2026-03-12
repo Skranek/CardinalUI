@@ -66,7 +66,10 @@ Each preset is a text string you copy and paste directly into the addon's import
 
 ElvUI
 
-Open the ElvUI config — /elvui in chat
+Open the ElvUI config — /ec in chat
+On the general tab, change the UI Scale to 0.53
+Navigate to the Buff/Debuffs tab
+Uncheck the enable box
 Navigate to Profiles → Import
 Copy the contents of ElvUI.txt and paste into the import box
 Confirm the import
