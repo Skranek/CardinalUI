@@ -42,6 +42,7 @@ CardinalUI dynamically adapts its layout based on your current game state.
 ## Required Addons
 These addons are **mandatory** for CardinalUI to function properly.
 
+- CardinalUI — You can find it above (Code -> Download Zip; extract and place into addons)
 - **[ElvUI](https://tukui.org/elvui)** — Core UI framework
 - **[Universal Frame Anchor (UFA)](https://www.curseforge.com/wow/addons/frame-anchor-ui-builder)** — Custom frame positioning
 - **[WeakTextures](https://www.curseforge.com/wow/addons/weaktextures)** — Texture support for WeakAuras/UI elements
@@ -64,18 +65,18 @@ Optional addons that **enhance the overall experience** but are not strictly req
 ## 1. Import Presets
 Each preset is a text string you copy and paste directly into the addon's import dialog in-game. All preset files are located in the /Presets folder.
 
-ElvUI
+ElvUI:
 
-Open the ElvUI config — /ec in chat
-On the general tab, change the UI Scale to 0.53
-Navigate to the Buff/Debuffs tab
-Uncheck the enable box
-Navigate to Profiles → Import
-Copy the contents of ElvUI.txt and paste into the import box
-Confirm the import
+- Open the ElvUI config — /ec in chat
+- On the general tab, change the UI Scale to 0.53
+- Navigate to the Buff/Debuffs tab
+- Uncheck the enable box
+- Navigate to Profiles → Import
+- Copy the contents of ElvUI.txt and paste into the import box
+- Confirm the import
 
 
-Frame Anchor (UFA)
+Frame Anchor (UFA):
 
 Open the UFA config in-game
 Navigate to the Import option
@@ -83,7 +84,7 @@ Copy the contents of FrameAnchor.txt and paste into the import box
 Confirm the import
 
 
-WeakTextures
+WeakTextures:
 
 Open the WeakTextures config in-game
 Navigate to the Import option
