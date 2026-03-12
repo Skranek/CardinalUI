@@ -1,0 +1,38 @@
+There is currently no profile support for dynamic cam. The developer is wanting to implement it soon AFAIK. CardinalUI only has two situations for you to enter into the dynamic cam (/dc) situations panel.
+
+Steps:
+1.) Create two situations and name them whatever.
+2.) Click Enable and set the priority to something.
+3.) Copy and paste the below snippets into "Situation Controls" options.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Situation 1 (Moving Fader):
+
+[Event]
+PLAYER_ENTERING_WORLD
+
+[Condition]
+return IsPlayerMoving()
+
+[Entering]
+UIFrameFadeRemoveFrame(MinimapCluster)
+UIFrameFadeIn(MinimapCluster, 0.3, MinimapCluster:GetAlpha(), 0)
+
+[Exiting]
+UIFrameFadeRemoveFrame(MinimapCluster)
+UIFrameFadeIn(MinimapCluster, 0.3, MinimapCluster:GetAlpha(), 1)
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Situation 2 (Hides minimap if target exists or in combat):
+
+[Event]
+PLAYER_REGEN_DISABLED, PLAYER_REGEN_ENABLED, UNIT_TARGET
+
+[Condition]
+return UnitAffectingCombat("player") or UnitExists("target")
+
+[Entering]
+Minimap:Hide(); ElvUF_Player_ClassBar:SetAlpha(1)
+
+[Exiting]
+Minimap:Show(); ElvUF_Player_ClassBar:SetAlpha(0)
