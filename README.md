@@ -6,10 +6,9 @@
 A curated set of addons and presets designed to enhance your **World of Warcraft** interface while keeping it **clean, modern, and efficient**.
 
 CardinalUI focuses on:
-- Minimal clutter
+- Very minimal clutter
 - Strong visual clarity
-- High customizability
-- Compatibility with modern WoW UI standards
+- Compatibility with WoW: Midnight
 
 ---
 
@@ -62,18 +61,32 @@ Optional addons that **enhance the overall experience** but are not strictly req
 ---
 
 # Installation
+## 1. Import Presets
+Each preset is a text string you copy and paste directly into the addon's import dialog in-game. All preset files are located in the /Presets folder.
 
-## 1. Install Required Addons
-You can install addons using:
-- **CurseForge App**
-- **WowUp**
-- Manual download
+ElvUI
 
-Make sure **all Required Addons** are installed before importing presets.
+Open the ElvUI config — /elvui in chat
+Navigate to Profiles → Import
+Copy the contents of ElvUI.txt and paste into the import box
+Confirm the import
 
----
 
-## 2. Install CardinalUI Presets
-1. Download the latest release of **ElvatathUI**  
-   *(Temporary name — will be replaced in future versions)*
-2. Extract the files into:
+Frame Anchor (UFA)
+
+Open the UFA config in-game
+Navigate to the Import option
+Copy the contents of FrameAnchor.txt and paste into the import box
+Confirm the import
+
+
+WeakTextures
+
+Open the WeakTextures config in-game
+Navigate to the Import option
+Copy the contents of WeakTextures.txt and paste into the import box
+Confirm the import
+
+
+## 2. DynamicCam Setup
+DynamicCam does not yet support profiles, so it requires manual setup. Full step-by-step instructions for configuring the two required situations are provided in /Presets/DynamicCam.txt.
