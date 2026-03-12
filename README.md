@@ -1,50 +1,79 @@
 # CardinalUI
+![World of Warcraft](https://img.shields.io/badge/Game-World%20of%20Warcraft-blue)
+![UI Pack](https://img.shields.io/badge/Type-UI%20Compilation-purple)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-A curated set of addons and presets to enhance your **World of Warcraft** experience.
+A curated set of addons and presets designed to enhance your **World of Warcraft** interface while keeping it **clean, modern, and efficient**.
+
+CardinalUI focuses on:
+- Minimal clutter
+- Strong visual clarity
+- High customizability
+- Compatibility with modern WoW UI standards
 
 ---
 
+# Showcase
+
+CardinalUI dynamically adapts its layout based on your current game state.
+
+## Out of Combat — Moving, No Target
+> Minimalist view when you're travelling with no target selected. The UI collapses to reduce visual noise and keep your screen clear.
+
+![Out of Combat and no target when moving](screenshots/out-of-combat-no-target.png)
+
+---
+
+## Target Exists or In Combat
+> Full combat layout activates automatically when you have a target or enter combat. Target frames, buffs, and debuffs expand for maximum situational awareness.
+
+![Target Exists or In Combat](screenshots/target-or-in-combat.png)
+
+---
+
+## Out of Combat — Stationary
+> When standing still and out of combat, the minimap and additional panels are shown for easy navigation and information access.
+
+![Out of Combat](screenshots/out-of-combat-stationary.png)
+
+---
+
+# Addons
+
 ## Required Addons
+These addons are **mandatory** for CardinalUI to function properly.
 
-These addons are essential for CardinalUI to function correctly:
-
-- **[ElvUI](https://tukui.org/elvui)**
-- **[Universal Frame Anchor (UFA)](https://www.curseforge.com/wow/addons/frame-anchor-ui-builder)**
-- **[WeakTextures](https://www.curseforge.com/wow/addons/weaktextures)**
+- **[ElvUI](https://tukui.org/elvui)** — Core UI framework
+- **[Universal Frame Anchor (UFA)](https://www.curseforge.com/wow/addons/frame-anchor-ui-builder)** — Custom frame positioning
+- **[WeakTextures](https://www.curseforge.com/wow/addons/weaktextures)** — Texture support for WeakAuras/UI elements
+- **[ElvUI ActionBarBuddy](https://github.com/Repooc/ElvUI_ActionBarBuddy)** — Advanced action bar layout tools
 
 ---
 
 ## Recommended Addons
+Optional addons that **enhance the overall experience** but are not strictly required.
 
-Optional addons that improve the overall experience:
-
-- **[ToxiUI](https://www.curseforge.com/wow/addons/toxiui)**
-- **[DynamicCam](https://www.curseforge.com/wow/addons/dynamiccam)**
-
----
-
-## Installation
-
-Follow these steps to set up CardinalUI:
-
-1. Install all **Required Addons**.
-2. Download the latest release of **ElvatathUI**. #ElvatathUI will be replaced in the future with the new name.
-3. Extract the files into your `World of Warcraft/_retail_/WTF` folder (or your preset import folder).
-4. Import each preset into the correct addon.
+- **[ToxiUI](https://www.curseforge.com/wow/addons/toxiui)** — Additional ElvUI modules
+- **[DynamicCam](https://www.curseforge.com/wow/addons/dynamiccam)** — Dynamic camera profiles
+- **[TipTac](https://www.curseforge.com/wow/addons/tip-tac)** — Enhanced tooltips
+- **[Movable LFG Eye](https://www.curseforge.com/wow/addons/movablelfgeye)** — Move the LFG eye icon
+- **[WaypointUI](https://www.curseforge.com/wow/addons/waypointui)** — Navigation and waypoint enhancements
 
 ---
 
-## Presets
+# Installation
 
-Import the following preset files into their respective addons:
+## 1. Install Required Addons
+You can install addons using:
+- **CurseForge App**
+- **WowUp**
+- Manual download
 
-| File   | Addon                       |
-|--------|-----------------------------|
-| File1  | ElvUI                       |
-| File2  | Universal Frame Anchor (UFA)|
-| File3  | WeakTextures                |
-| File4  | DynamicCam                  |
+Make sure **all Required Addons** are installed before importing presets.
 
 ---
 
-> Enjoy your enhanced WoW UI with CardinalUI!
+## 2. Install CardinalUI Presets
+1. Download the latest release of **ElvatathUI**  
+   *(Temporary name — will be replaced in future versions)*
+2. Extract the files into:
