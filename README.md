@@ -47,14 +47,14 @@ These addons are **mandatory** for CardinalUI to function properly.
 - **[Universal Frame Anchor (UFA)](https://www.curseforge.com/wow/addons/frame-anchor-ui-builder)** — Custom frame positioning
 - **[WeakTextures](https://www.curseforge.com/wow/addons/weaktextures)** — Texture support for WeakAuras/UI elements
 - **[ElvUI ActionBarBuddy](https://github.com/Repooc/ElvUI_ActionBarBuddy)** — Advanced action bar layout tools
+- **[DynamicCam](https://www.curseforge.com/wow/addons/dynamiccam)** — Dynamic camera profiles
+- **[ToxiUI](https://www.curseforge.com/wow/addons/toxiui)** — Additional ElvUI modules
 
 ---
 
 ## Recommended Addons
 Optional addons that **enhance the overall experience** but are not strictly required.
 
-- **[ToxiUI](https://www.curseforge.com/wow/addons/toxiui)** — Additional ElvUI modules
-- **[DynamicCam](https://www.curseforge.com/wow/addons/dynamiccam)** — Dynamic camera profiles
 - **[TipTac](https://www.curseforge.com/wow/addons/tip-tac)** — Enhanced tooltips
 - **[Movable LFG Eye](https://www.curseforge.com/wow/addons/movablelfgeye)** — Move the LFG eye icon
 - **[WaypointUI](https://www.curseforge.com/wow/addons/waypointui)** — Navigation and waypoint enhancements
